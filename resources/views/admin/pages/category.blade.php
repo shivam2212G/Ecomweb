@@ -35,7 +35,7 @@
                             style="object-fit: cover; border-radius: 10px; transition: transform 0.3s;"
                             onmouseover="this.style.transform='scale(1.1)'"
                             onmouseout="this.style.transform='scale(1)'" />
-                    </td>
+                    </td>//
                     <td>{{ $cat->cat_description }}</td>
                     <td>
                         <a href="{{ route('admin.editcategory',['id'=>$cat->cat_id]) }}">
